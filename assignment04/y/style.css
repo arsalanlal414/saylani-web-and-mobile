@@ -1,0 +1,72 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-item{
+    font-size: 18px;
+    padding-left:30px !important ;
+}
+.nav-link:hover{
+    color: black !important;
+}
+.pop-courses, .pop-head{
+    margin: 30px;
+}
+
+.carousel-caption{
+    color: rgba(0, 0, 0, 0.623) !important;
+}
+
+.load-button{
+    margin: 30px;
+}
+.top-footer{
+    background-color: black;
+    color: #f0f0f0;
+    padding: 50px;
+    border-bottom: 0.5px solid white;
+}
+.last-footer{
+    background-color: black;
+    color: #f0f0f0;
+    padding: 10px;
+}
+.rounded-circle{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.top-teachers{
+    margin: 30px;
+}
+.fab{
+    height: 40px;
+    width: 40px;
+    padding-top: 15px;
+}
+.tech{
+    color: #f0f0f0;
+    text-decoration: none !important;
+    
+}
+.tech:hover{
+    color: yellow;
+}
+.techer-card{
+    border: none !important;
+}
+.formarea{
+    width: 250px;
+    border: none;
+    border-bottom: 2px solid grey;
+    outline: none;
+    color: black;
+    font-size: 20px;
+}
+
+.button{
+    /* width: 560px !important; */
+    padding-left : 60px !important;
+    padding-right:50px;
+}

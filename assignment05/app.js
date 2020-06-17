@@ -347,171 +347,172 @@ document.write("</table>");
 */
 
 
+/*
 
 //chapter 9-11
 
-// //Question no.01
-// var cityNmae=prompt("enter the name of city","enter the city name");
-// if (cityNmae==="karachi"){
-//     document.write("<h1>Welcome to city of lights");
-// }
-// else{
-//     document.write("<h1>Sorry you are not welcome here")
-// }
+//Question no.01
+var cityNmae=prompt("enter the name of city","enter the city name");
+if (cityNmae==="karachi"){
+    document.write("<h1>Welcome to city of lights");
+}
+else{
+    document.write("<h1>Sorry you are not welcome here")
+}
 
-// //Question no.02
-// var gender=prompt("what's your gender","enter your gender");
-// if (gender==="male"){
-//     document.write("<h1>Good Morning Sir.");
-// }
-// else if(gender==="female"){
-//     document.write("<h1>Good Gorning Ma'am.")
-// }
-// else{
-//     document.write("<h1>please write gender in alphabetically");
-// }
-// //Question no.03
-// document.write("<table style='color:blue; font-weight:bold'>");
-// document.write("<tr>");
-// document.write("<th>Signal color</th><th #8bdffb>Messege</th>");
-// document.write("</tr>");
-// var signalColor=prompt("write a traffic signal color","enter color");
-// if (signalColor==="red"){
-//     document.write("<tr style='background-color:#8bdffb'>");
-//     document.write("<td>"+signalColor);
-//     document.write("<td> must stop</td>");
-//     document.write("</tr>");
-// }
-// else if (signalColor==="yellow"){
-//     document.write("<tr>");
-//     document.write("<td>"+signalColor);
-//     document.write("<td> ready to move</td>");
-//     document.write("</tr>");
-// }
-// else if (signalColor==="green"){
-//     document.write("<tr>");
-//     document.write("<td>"+signalColor);
-//     document.write("<td> move now</td>");
-//     document.write("</tr>");
-// }
-// else{
-//     alert("please enter correct color");
-// }
-// document.write("</table>")
-
-
-
-// //Question no.04
-// var fuel=+prompt("please enter fuel in litres","enter fuel");
-// if (fuel<0.25){
-//     document.write("Please refill the fuel in your car");
-// }
-// else{
-//     document.write("you have a fuel");
-// }
-
-
-// //Question no.05
-// var a = 4;
-// if (++a === 5){
-//     alert("given condition for variable a is true"); 
-// }
-// var b = 82;
-// if (b++ === 83){
-//     alert("given condition for variable b is true");
-// }
-// var c = 12;
-// if (c++ === 13){ 
-//     alert("condition 1 is true"); 
-// }
-// if (c === 13){ 
-//     alert("condition 2 is true"); 
-// }
-// if (++c < 14){ 
-//     alert("condition 3 is true"); 
-// }
-// if(c === 14){ 
-//     alert("condition 4 is true"); 
-// }
-// var materialCost = 20000;
-// var laborCost = 2000;
-// var totalCost = materialCost + laborCost;
-// if (totalCost === laborCost + materialCost){ 
-//     alert("The cost equals");
-// }
-// if (true){ 
-//     alert("True"); 
-// }
-// if (false){ 
-//     alert("False"); 
-// }
-// if("car" < "cat"){
-//     alert("car is smaller than cat"); 
-// }
+//Question no.02
+var gender=prompt("what's your gender","enter your gender");
+if (gender==="male"){
+    document.write("<h1>Good Morning Sir.");
+}
+else if(gender==="female"){
+    document.write("<h1>Good Gorning Ma'am.")
+}
+else{
+    document.write("<h1>please write gender in alphabetically");
+}
+//Question no.03
+document.write("<table style='color:blue; font-weight:bold'>");
+document.write("<tr>");
+document.write("<th>Signal color</th><th #8bdffb>Messege</th>");
+document.write("</tr>");
+var signalColor=prompt("write a traffic signal color","enter color");
+if (signalColor==="red"){
+    document.write("<tr style='background-color:#8bdffb'>");
+    document.write("<td>"+signalColor);
+    document.write("<td> must stop</td>");
+    document.write("</tr>");
+}
+else if (signalColor==="yellow"){
+    document.write("<tr>");
+    document.write("<td>"+signalColor);
+    document.write("<td> ready to move</td>");
+    document.write("</tr>");
+}
+else if (signalColor==="green"){
+    document.write("<tr>");
+    document.write("<td>"+signalColor);
+    document.write("<td> move now</td>");
+    document.write("</tr>");
+}
+else{
+    alert("please enter correct color");
+}
+document.write("</table>")
 
 
 
-// //Question no.06
-// var sub1=+prompt("please enter obtained marks in english","write obtained marks out of 100");
-// var sub2=+prompt("please enter obtained marks in urdu","write obtained marks out of 100");
-// var sub3=+prompt("please enter obtained marks in programming","write obtained marks out of 100");
-// var obtainedMarks=sub1+sub2+sub3;
-// var totalMarks=300;
-// var percentage=obtainedMarks*100/totalMarks;
-// var grade,remarks;
-// if (percentage>=80 && percentage<=100){
-//     grade="A-one";
-//     remarks="excellent"
-// }
-// else if (percentage>=70 && percentage<=79){
-//     grade="B";
-//     remarks="You need to improve";
-// }
-// else if (percentage>=60 && percentage<=69){
-//     grade="A";
-//     remarks="Good";
-// }
-// else if (percentage<=60){
-//     grade="Fail";
-//     remarks="Sorry";
-// }
-// else{
-//     alert("please enter correct number otherwise it will effect the result")
-// }
-// document.write("<h1>Marks Sheet");
-// document.write("Total marks: "+totalMarks);
-// document.write("<br>Marks obtained: "+obtainedMarks);
-// document.write("<br>Percentage: "+percentage+"%");
-// document.write("<br>Grade: "+grade);
-// document.write("<br>Remarks:"+ remarks);
+//Question no.04
+var fuel=+prompt("please enter fuel in litres","enter fuel");
+if (fuel<0.25){
+    document.write("Please refill the fuel in your car");
+}
+else{
+    document.write("you have a fuel");
+}
 
-// //Question no.07
-// var secretNumber=6;
-// var guess=+prompt("please guess the secret number 1-10","enter number range 1-10");
-// if (secretNumber===guess){
-//     document.write("Bingo! correct answer");
-// }
-// else{
-//     document.write("Close enough to the correct answer");
-// }
 
-// //Question no.08
-// var number=+prompt("please enter number");
-// if (number%3==0){
-//     document.write("yes number is divisible by three");
-// }
-// else{
-//     document.write("sorry number is not divisible by 3");
-// }
+//Question no.05
+var a = 4;
+if (++a === 5){
+    alert("given condition for variable a is true"); 
+}
+var b = 82;
+if (b++ === 83){
+    alert("given condition for variable b is true");
+}
+var c = 12;
+if (c++ === 13){ 
+    alert("condition 1 is true"); 
+}
+if (c === 13){ 
+    alert("condition 2 is true"); 
+}
+if (++c < 14){ 
+    alert("condition 3 is true"); 
+}
+if(c === 14){ 
+    alert("condition 4 is true"); 
+}
+var materialCost = 20000;
+var laborCost = 2000;
+var totalCost = materialCost + laborCost;
+if (totalCost === laborCost + materialCost){ 
+    alert("The cost equals");
+}
+if (true){ 
+    alert("True"); 
+}
+if (false){ 
+    alert("False"); 
+}
+if("car" < "cat"){
+    alert("car is smaller than cat"); 
+}
 
-// //Question no.09
-// var number=+prompt("please enter number");
-// if (number%2==0){
-//     document.write("number is even");
-// }
-// else{
-//     document.write("number is odd");
-// }
+
+
+//Question no.06
+var sub1=+prompt("please enter obtained marks in english","write obtained marks out of 100");
+var sub2=+prompt("please enter obtained marks in urdu","write obtained marks out of 100");
+var sub3=+prompt("please enter obtained marks in programming","write obtained marks out of 100");
+var obtainedMarks=sub1+sub2+sub3;
+var totalMarks=300;
+var percentage=obtainedMarks*100/totalMarks;
+var grade,remarks;
+if (percentage>=80 && percentage<=100){
+    grade="A-one";
+    remarks="excellent"
+}
+else if (percentage>=70 && percentage<=79){
+    grade="B";
+    remarks="You need to improve";
+}
+else if (percentage>=60 && percentage<=69){
+    grade="A";
+    remarks="Good";
+}
+else if (percentage<=60){
+    grade="Fail";
+    remarks="Sorry";
+}
+else{
+    alert("please enter correct number otherwise it will effect the result")
+}
+document.write("<h1>Marks Sheet");
+document.write("Total marks: "+totalMarks);
+document.write("<br>Marks obtained: "+obtainedMarks);
+document.write("<br>Percentage: "+percentage+"%");
+document.write("<br>Grade: "+grade);
+document.write("<br>Remarks:"+ remarks);
+
+//Question no.07
+var secretNumber=6;
+var guess=+prompt("please guess the secret number 1-10","enter number range 1-10");
+if (secretNumber===guess){
+    document.write("Bingo! correct answer");
+}
+else{
+    document.write("Close enough to the correct answer");
+}
+
+//Question no.08
+var number=+prompt("please enter number");
+if (number%3==0){
+    document.write("yes number is divisible by three");
+}
+else{
+    document.write("sorry number is not divisible by 3");
+}
+
+//Question no.09
+var number=+prompt("please enter number");
+if (number%2==0){
+    document.write("number is even");
+}
+else{
+    document.write("number is odd");
+}
 
 //Question no.10
 var temp=+prompt("please eneter temperature","eneter temperature in celcius");
@@ -550,3 +551,8 @@ else if(operation=="%"){
 else{
     document.write("please correct the inputs");    
 }
+
+*/
+
+
+//chapter 

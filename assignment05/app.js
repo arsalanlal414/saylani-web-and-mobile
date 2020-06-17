@@ -554,5 +554,61 @@ else{
 
 */
 
+/*
 
-//chapter 
+//chapter 10-12
+
+//Question no.01
+
+
+//Question no.02
+var a=+prompt("please input a number A");
+var b=+prompt("please input a number B");
+var larger=a;
+if(a<b){
+    larger=b;
+}
+else if(a==b){
+    larger=larger;
+}
+document.write("the larger number is: "+larger);
+
+
+//Question no.03
+var number1=+prompt("please eneter a number");
+if (number1>0){
+    document.write("number is positive");
+}
+else if(number1<0){
+    document.write("number is negative");
+}
+else if(number10){
+    document.write("number is zero");
+}
+else{
+    document.write("please enter number correctly");
+
+}
+
+//Question no.04
+var password="password";
+var typePassword=prompt("please enter your password");
+if (typePassword==null){
+    alert("Please enter your password");
+}
+else if (typePassword==="password"){
+    document.write("Correct! The password you entered matches the original password");
+}
+else{
+    document.write("Incorrect password");
+}
+//Question no.06
+var greeting;
+var hour = 13;
+if (hour < 18) {
+    greeting = "Good day";
+}
+else{
+    greeting = "Good evening"; 
+}
+*/

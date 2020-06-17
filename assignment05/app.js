@@ -401,59 +401,152 @@ document.write("</table>");
 
 
 
-//Question no.04
-var fuel=+prompt("please enter fuel in litres","enter fuel");
-if (fuel<0.25){
-    document.write("Please refill the fuel in your car");
+// //Question no.04
+// var fuel=+prompt("please enter fuel in litres","enter fuel");
+// if (fuel<0.25){
+//     document.write("Please refill the fuel in your car");
+// }
+// else{
+//     document.write("you have a fuel");
+// }
+
+
+// //Question no.05
+// var a = 4;
+// if (++a === 5){
+//     alert("given condition for variable a is true"); 
+// }
+// var b = 82;
+// if (b++ === 83){
+//     alert("given condition for variable b is true");
+// }
+// var c = 12;
+// if (c++ === 13){ 
+//     alert("condition 1 is true"); 
+// }
+// if (c === 13){ 
+//     alert("condition 2 is true"); 
+// }
+// if (++c < 14){ 
+//     alert("condition 3 is true"); 
+// }
+// if(c === 14){ 
+//     alert("condition 4 is true"); 
+// }
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){ 
+//     alert("The cost equals");
+// }
+// if (true){ 
+//     alert("True"); 
+// }
+// if (false){ 
+//     alert("False"); 
+// }
+// if("car" < "cat"){
+//     alert("car is smaller than cat"); 
+// }
+
+
+
+// //Question no.06
+// var sub1=+prompt("please enter obtained marks in english","write obtained marks out of 100");
+// var sub2=+prompt("please enter obtained marks in urdu","write obtained marks out of 100");
+// var sub3=+prompt("please enter obtained marks in programming","write obtained marks out of 100");
+// var obtainedMarks=sub1+sub2+sub3;
+// var totalMarks=300;
+// var percentage=obtainedMarks*100/totalMarks;
+// var grade,remarks;
+// if (percentage>=80 && percentage<=100){
+//     grade="A-one";
+//     remarks="excellent"
+// }
+// else if (percentage>=70 && percentage<=79){
+//     grade="B";
+//     remarks="You need to improve";
+// }
+// else if (percentage>=60 && percentage<=69){
+//     grade="A";
+//     remarks="Good";
+// }
+// else if (percentage<=60){
+//     grade="Fail";
+//     remarks="Sorry";
+// }
+// else{
+//     alert("please enter correct number otherwise it will effect the result")
+// }
+// document.write("<h1>Marks Sheet");
+// document.write("Total marks: "+totalMarks);
+// document.write("<br>Marks obtained: "+obtainedMarks);
+// document.write("<br>Percentage: "+percentage+"%");
+// document.write("<br>Grade: "+grade);
+// document.write("<br>Remarks:"+ remarks);
+
+// //Question no.07
+// var secretNumber=6;
+// var guess=+prompt("please guess the secret number 1-10","enter number range 1-10");
+// if (secretNumber===guess){
+//     document.write("Bingo! correct answer");
+// }
+// else{
+//     document.write("Close enough to the correct answer");
+// }
+
+// //Question no.08
+// var number=+prompt("please enter number");
+// if (number%3==0){
+//     document.write("yes number is divisible by three");
+// }
+// else{
+//     document.write("sorry number is not divisible by 3");
+// }
+
+// //Question no.09
+// var number=+prompt("please enter number");
+// if (number%2==0){
+//     document.write("number is even");
+// }
+// else{
+//     document.write("number is odd");
+// }
+
+//Question no.10
+var temp=+prompt("please eneter temperature","eneter temperature in celcius");
+if (temp>40){
+        document.write("Its  too hot outside");
+    }
+    else if (temp>30){
+       document.write("The Wheather today is Normal")
+    }
+    else if (temp>20){
+        document.write("Today's Weather is cool")
+    }
+    else if (temp>10){
+       document.write("OMG! Today's weather is so Cool")
+    }
+    else{
+        alert("please enter correct number otherwise it will effect the result")
+    }
+
+//Question no.11
+var numb1=+prompt("please enter number");
+var numb2=+prompt("please enter number");
+var operation=prompt("please eneter operation");
+if(operation=="+"){
+    document.write(numb1+numb2);
+}
+else if(operation=="-"){
+    document.write(numb1-numb2);
+}
+else if(operation=="/"){
+    document.write(numb1/numb2);
+}
+else if(operation=="%"){
+    document.write(numb1%numb2);
 }
 else{
-    document.write("you have a fuel");
+    document.write("please correct the inputs");    
 }
-
-
-//Question no.05
-var a = 4;
-if (++a === 5){
-    alert("given condition for variable a is true"); 
-}
-var b = 82;
-if (b++ === 83){
-    alert("given condition for variable b is true");
-}
-var c = 12;
-if (c++ === 13){ 
-    alert("condition 1 is true"); 
-}
-if (c === 13){ 
-    alert("condition 2 is true"); 
-}
-if (++c < 14){ 
-    alert("condition 3 is true"); 
-}
-if(c === 14){ 
-    alert("condition 4 is true"); 
-}
-var materialCost = 20000;
-var laborCost = 2000;
-var totalCost = materialCost + laborCost;
-if (totalCost === laborCost + materialCost){ 
-    alert("The cost equals");
-}
-if (true){ 
-    alert("True"); 
-}
-if (false){ 
-    alert("False"); 
-}
-if("car" < "cat"){
-    alert("car is smaller than cat"); 
-}
-
-
-
-//Question no.06
-//Question no.07
-//Question no.08
-//Question no.09
-//Question no.10
-//Question no.11

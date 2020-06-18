@@ -612,3 +612,65 @@ else{
     greeting = "Good evening"; 
 }
 */
+
+// //chapter13-15
+
+// //Question01
+// var array=[];
+
+// //Question02
+// var objectA = {};
+
+// //Question03
+// var names=["ali","usama","kamran","saeed"];
+
+// //Question04
+// var number=[1,2,3,4,5];
+
+// //Question05
+// var bool=[true,false,false,true];
+
+// //Question06
+// var mixed=[true,1,2,3,"ali","kamran"];
+
+// //Question07
+// var qualification=["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil", "PhD"]
+// document.write("<h1>QUALIFICATION</h1> <br>");
+// for ( i=0; i<=7;i++){
+//     document.write(i+1+") "+qualification[i]+"<br>");
+// }
+
+//Question08
+var students=["Michael","John","tony"];
+var score=[320,230,480];
+var tMarks=500;
+for(var i=0;i<3;i++){
+    document.write("score of "+students[i]+ " is "+ score[i]+". Percentage: "+ (score[i]*100/tMarks)+"% <br>");
+}
+
+//Question no.09
+var colors=["red "," blue "," green "];
+alert("the colors are: "+colors);
+colors.unshift(prompt("enter the color you want to add in start"));
+alert("the colors are: "+colors);
+colors.push(prompt("enter the color you want to add in end"));
+alert("the colors are: "+colors);
+colors.unshift(prompt("enter the color you want to add in start"),prompt("enter the color you want to add in start"));
+alert("the colors are: "+colors);
+colors.shift();
+alert("the colors are: "+colors);
+colors.pop();
+colors.splice(prompt("Select index number"),prompt("select number of colors you want remove"),prompt("select color names you want to add "),prompt("select color names you want to add "));
+alert("the colors are: "+colors);
+
+//Question no.10
+var scores=[];
+scores.sort();
+for ( i=0; i<3;i++){
+    scores[i]=prompt("enter number of student: " );
+}
+document.write(scores);
+//Question no.11
+var cities=["karachi","lahore","peshawar"];
+var selectedCities= cities.slice(0,3);
+document.write("selected cities are: "+selectedCities);
